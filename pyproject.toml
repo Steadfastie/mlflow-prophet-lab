@@ -6,12 +6,15 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "mlflow (>=3.8.0,<4.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=7.1.0,<8.0.0)",
     "mypy (>=1.19.1,<2.0.0)",
-    "nb-mypy (>=1.0.6,<2.0.0)"
+    "nb-mypy (>=1.0.6,<2.0.0)",
+    "jedi (>=0.19.2,<0.20.0)",
 ]
 
 [tool.poetry]
-packages = [{include = "mlflow_prothet_lab", from = "src"}]
+packages = [{include = "mlflow_prophet_lab", from = "src"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

@@ -1,0 +1,18 @@
+[project]
+name = "mlflow-prothet-lab"
+version = "0.1.0"
+description = "exploring mlflow with prothet"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mlflow (>=3.8.0,<4.0.0)",
+    "mypy (>=1.19.1,<2.0.0)",
+    "nb-mypy (>=1.0.6,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "mlflow_prothet_lab", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

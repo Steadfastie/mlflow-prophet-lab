@@ -10,7 +10,8 @@ dependencies = [
     "ipykernel (>=7.1.0,<8.0.0)",
     "mypy (>=1.19.1,<2.0.0)",
     "nb-mypy (>=1.0.6,<2.0.0)",
-    "jedi (>=0.19.2,<0.20.0)",
+    "psycopg (>=3.3.2,<4.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
 ]
 
 [tool.poetry]
@@ -19,3 +20,9 @@ packages = [{include = "mlflow_prophet_lab", from = "src"}]
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "python-lsp-server (>=1.14.0,<2.0.0)",
+    "jupyterlab-lsp (>=5.2.0,<6.0.0)"
+]

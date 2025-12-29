@@ -1,3 +1,4 @@
 {
-  "db_uri": "postgresql://username:password@localhost:5432/default"
+  "db_uri": "postgresql://username:password@localhost:5432/default",
+  "dataseed_path": "tests/dataseed/exchange_rates.csv"
 }

@@ -209,3 +209,6 @@ __marimo__/
 # mlflow
 mlruns/
 mlflow.db
+
+# jupyter
+.virtual_documents/

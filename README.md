@@ -2,7 +2,7 @@
 This project uses [Prophet](https://facebook.github.io/prophet/) for time series forecasting and [MLflow](https://mlflow.org/) for experiment tracking to predict USD/EUR exchange rates one year ahead. DDataset sourced from the [European Central Bank Date Portal](https://data.ecb.europa.eu/)
 
 ### 🔧 Tuning
-While most hyperparameters are tuned automatically with Optuna, requiring little manual intervention, a hands-on approach was taken for the `changepoint_range`. 
+While most hyperparameters are tuned automatically with [Optuna](https://github.com/optuna/optuna), requiring little manual intervention, a hands-on approach was taken for the `changepoint_range`. 
 
 The following pictures shows that a value of 0.95 began to worsen key metrics, 
 

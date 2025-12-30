@@ -6,11 +6,11 @@ While most hyperparameters are tuned automatically with Optuna, requiring little
 
 The following pictures shows that a value of 0.95 began to worsen key metrics, 
 
-![1](tests/changepoint_range_1.png)
+![1](tests/changepoint_range_1.jpg)
 
 while 0.9 proved to be the sweet spot for better accuracy. 
 
-![2](tests/changepoint_range_2.png)
+![2](tests/changepoint_range_2.jpg)
 
 Visual comparisons were made in the MLflow UI.
 

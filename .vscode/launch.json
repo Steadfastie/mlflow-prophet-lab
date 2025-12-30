@@ -11,7 +11,7 @@
       "module": "mlflow_prophet_lab",
       "console": "integratedTerminal",
       "env": {
-        "LOAD_DATA": "true",
+        "LOAD_DATA": "false",
       }
     }
   ]

@@ -1,3 +1,5 @@
+![preview_readme](https://github.com/user-attachments/assets/b0892048-8d89-45e1-bde2-d11cef6355d3)
+
 ## 👨‍💻 mlflow-prophet-labs
 This project uses [Prophet](https://facebook.github.io/prophet/) for time series forecasting and [MLflow](https://mlflow.org/) for experiment tracking to predict USD/EUR exchange rates one year ahead. DDataset sourced from the [European Central Bank Date Portal](https://data.ecb.europa.eu/)
 
